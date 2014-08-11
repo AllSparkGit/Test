@@ -1,0 +1,4 @@
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Contracts\bin\Debug\InterviewQ.Business.Contracts.dll
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Contracts\bin\Debug\InterviewQ.Business.Contracts.pdb
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Contracts\obj\Debug\InterviewQ.Business.Contracts.dll
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Contracts\obj\Debug\InterviewQ.Business.Contracts.pdb

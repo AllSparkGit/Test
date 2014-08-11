@@ -1,0 +1,7 @@
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\bin\Debug\InterviewQ.Business.Entities.dll
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\bin\Debug\InterviewQ.Business.Entities.pdb
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\bin\Debug\InterviewQ.Business.Contracts.dll
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\bin\Debug\InterviewQ.Business.Contracts.pdb
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\obj\Debug\InterviewQ.Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\obj\Debug\InterviewQ.Business.Entities.dll
+C:\Users\Ravindranath\Documents\Visual Studio 2013\Projects\MyProj\InterviewQ\InterviewQ.Business.Entities\obj\Debug\InterviewQ.Business.Entities.pdb

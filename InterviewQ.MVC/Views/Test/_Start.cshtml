@@ -1,0 +1,14 @@
+﻿@model InterviewQ.MVC.Models.TestModel
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+        <div>Total Questions : @Model.Questions.Count</div>
+        <div>
+            <h4>Instructions</h4>
+            <hr />
+            <p>@Model.Instructions</p>
+        </div>
+    <p>
+        <input type="submit" class="btn btn-primary btn-lg" value="Start" />
+    </p>
+}

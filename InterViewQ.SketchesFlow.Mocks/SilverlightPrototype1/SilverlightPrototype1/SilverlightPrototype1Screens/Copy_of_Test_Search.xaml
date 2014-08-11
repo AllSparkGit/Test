@@ -1,0 +1,34 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	xmlns:sk="http://www.hardcodet.net/sketchables"
+	mc:Ignorable="d"
+	x:Class="SilverlightPrototype1Screens.Copy_of_Test_Search"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<sdk:Label HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Height="49" Width="188" FontWeight="Bold" Content="InterviewQ" FontSize="29.333"/>
+		<Button Content="Logout" HorizontalAlignment="Right" Margin="0,8,28,0" Style="{StaticResource Button-Sketch}" VerticalAlignment="Top" Width="75" RenderTransformOrigin="2.027,0.383">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="SilverlightPrototype1Screens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock Margin="0,74,8,0" Style="{StaticResource TextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" HorizontalAlignment="Right"><Run Text="Remaining Time : 00:59 Hrs"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="23,152,0,0" Style="{StaticResource TextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Text="Quesrion 1"/>
+		<TextBlock Margin="75,192,83,0" Style="{StaticResource TextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Text="What is IL in .NET ?"/>
+		<CheckBox Content="MSIL" Margin="75,225,0,235" Style="{StaticResource CheckBox-Sketch}" HorizontalAlignment="Left" d:LayoutOverrides="Height"/>
+		<CheckBox Content="CIL" Margin="75,0,0,211" Style="{StaticResource CheckBox-Sketch}" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+		<CheckBox Content="Intermediate Language" Margin="75,0,0,187" Style="{StaticResource CheckBox-Sketch}" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+		<CheckBox Content="CLS" Margin="75,0,0,163" Style="{StaticResource CheckBox-Sketch}" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+		<Button Content="Back" HorizontalAlignment="Left" Margin="75,0,0,94" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom" Width="75"/>
+		<TextBlock HorizontalAlignment="Left" Margin="23,74,0,0" Style="{StaticResource TextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="27"><Run Text="Test taker: Sigmon Fryid"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="230,74,222,0" Style="{StaticResource TextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Text="Remaining Questions : 01/20"/>
+		<Button Content="Skip" Margin="299,0,266,94" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom"/>
+		<Button Content="Next" HorizontalAlignment="Right" Margin="0,0,28,94" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom" Width="75" RenderTransformOrigin="6.243,0.192"/>
+	</Grid>
+</UserControl>

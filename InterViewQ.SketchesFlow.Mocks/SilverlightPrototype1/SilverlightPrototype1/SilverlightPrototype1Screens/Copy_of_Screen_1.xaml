@@ -1,0 +1,36 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="SilverlightPrototype1Screens.Copy_of_Screen_1"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<sdk:Label HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Height="49" Width="188" FontWeight="Bold" Content="InterviewQ" FontSize="29.333"/>
+		<TextBox Margin="146,80,250,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,88,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,120,250,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,128,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,161,250,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,169,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,204,250,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,212,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,0,250,201" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,0,0,207" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Bottom" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,0,250,159" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,0,0,165" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="Password" VerticalAlignment="Bottom" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="146,0,250,118" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+		<TextBlock HorizontalAlignment="Left" Margin="-3,0,0,104" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="-1.741,-1.637"><Run Text="Confirm Password"/><LineBreak/><Run/></TextBlock>
+		<Button Content="Sign Up" HorizontalAlignment="Left" Margin="146,0,0,41" Style="{StaticResource Button-Sketch}" VerticalAlignment="Bottom" Width="75">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="SilverlightPrototype1Screens.Copy_of_Home"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+	</Grid>
+</UserControl>

@@ -1,0 +1,31 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	xmlns:sk="http://www.hardcodet.net/sketchables"
+	mc:Ignorable="d"
+	x:Class="SilverlightPrototype1Screens.Copy_of_Dashboard"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<sdk:Label HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Height="49" Width="188" FontWeight="Bold" Content="InterviewQ" FontSize="29.333"/>
+		<Button Content="Logout" HorizontalAlignment="Right" Margin="0,8,28,0" Style="{StaticResource Button-Sketch}" VerticalAlignment="Top" Width="75" RenderTransformOrigin="2.027,0.383">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="SilverlightPrototype1Screens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Search" Margin="0,62,136,0" Style="{StaticResource Button-Sketch}" VerticalAlignment="Top" HorizontalAlignment="Right" Width="124"/>
+		<TextBox Margin="54,60,277,0" Style="{StaticResource TextBox-Sketch}" TextWrapping="Wrap" Text="Enter a Test name eg: ASP.NET" VerticalAlignment="Top"/>
+		<sk:SketchableDataGrid Content="{}{w:200}Exam Name,{w:*}Content,{w:0.5*}Rating&#xa;ASP.NET, [@:Select],[*],&#xa;ASP.NET MVC, [@:Select],[*],&#xa;.NET, [@:Select],[*]," Margin="54,145,33,227" d:LayoutOverrides="Width, Height">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="SilverlightPrototype1Screens.Copy_of_Test_Search"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</sk:SketchableDataGrid>
+	</Grid>
+</UserControl>

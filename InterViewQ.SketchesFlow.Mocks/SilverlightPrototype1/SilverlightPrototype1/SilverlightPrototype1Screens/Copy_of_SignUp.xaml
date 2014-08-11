@@ -1,0 +1,28 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	xmlns:sk="http://www.hardcodet.net/sketchables"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="SilverlightPrototype1Screens.Copy_of_SignUp"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<sdk:Label HorizontalAlignment="Left" Margin="8,0,0,0" VerticalAlignment="Top" Height="49" Width="188" FontWeight="Bold" Content="InterviewQ" FontSize="29.333"/>
+		<TextBox Margin="162,76,234,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="55,84,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<TextBox Margin="162,118,234,0" Style="{StaticResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="55,126,0,0" Style="{StaticResource BodyLeft-Sketch}" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" RenderTransformOrigin="-1.741,-1.637"/>
+		<Button Content="Login" HorizontalAlignment="Right" Margin="0,120,133,0" Style="{StaticResource Button-Sketch}" VerticalAlignment="Top" Width="84">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="SilverlightPrototype1Screens.Copy_of_Home"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Left" Margin="157,200,0,0" Style="{StaticResource BodyCenter-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="OR Using Other third party login credentials"/><LineBreak/><Run/></TextBlock>
+	</Grid>
+</UserControl>
